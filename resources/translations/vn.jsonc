@@ -1,0 +1,17 @@
+{
+  "prefix": "[GOLD]zResourcePrecacher7GC [SILVER]» ",
+  "command.no_permission": "[RED]Bạn không có quyền thực hiện lệnh này.",
+  "command.reload.start": "[YELLOW]Đang tải lại cấu hình và danh sách tài nguyên...",
+  "command.reload.success": "[GREEN]Đã tải lại cấu hình thành công. Sẵn sàng nạp [GOLD]{0}[GREEN] tài nguyên từ [GOLD]{1}[GREEN] gói VPK.",
+  "command.status.summary": "[SILVER]Trạng thái nạp tài nguyên: [GOLD]{0}[SILVER] tài nguyên đã sẵn sàng từ [GOLD]{1}[SILVER] VPK và danh sách thủ công.",
+  "command.status.discord": "[SILVER]Discord webhook: {0}",
+  "command.status.discord_enabled": "[GREEN]Đang Bật",
+  "command.status.discord_disabled": "[DARKRED]Đang Tắt",
+  "command.webhook.disabled": "[RED]Discord webhook đang tắt hoặc chưa cấu hình WebhookUrl trong config.jsonc.",
+  "command.webhook.sending": "[YELLOW]Đang gửi báo cáo thử nghiệm đến Discord webhook...",
+  "command.webhook.success": "[GREEN]Đã gửi báo cáo thử nghiệm thành công! Hãy kiểm tra kênh Discord của bạn.",
+  "command.webhook.failed": "[RED]Gửi báo cáo thử nghiệm đến Discord thất bại: {0}",
+  "precache.summary": "[GREEN]Đã nạp thành công [GOLD]{0}[GREEN] tài nguyên trong [GOLD]{1}ms[GREEN].",
+  "precache.discord.success": "[GREEN]Đã gửi báo cáo precache đến Discord webhook thành công.",
+  "precache.discord.failed": "[RED]Gửi báo cáo đến Discord webhook thất bại: {0}"
+}

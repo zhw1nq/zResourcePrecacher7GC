@@ -1,0 +1,17 @@
+{
+  "prefix": "[GOLD]zResourcePrecacher7GC [SILVER]» ",
+  "command.no_permission": "[RED]You do not have permission to execute this command.",
+  "command.reload.start": "[YELLOW]Reloading configuration and precache entries...",
+  "command.reload.success": "[GREEN]Configuration reloaded successfully. [GOLD]{0}[GREEN] resources prepared across [GOLD]{1}[GREEN] package(s).",
+  "command.status.summary": "[SILVER]Precache status: [GOLD]{0}[SILVER] resources loaded from [GOLD]{1}[SILVER] VPK(s) and manual configuration.",
+  "command.status.discord": "[SILVER]Discord webhook: {0}",
+  "command.status.discord_enabled": "[GREEN]Enabled",
+  "command.status.discord_disabled": "[DARKRED]Disabled",
+  "command.webhook.disabled": "[RED]Discord webhook is disabled or WebhookUrl is empty in config.jsonc.",
+  "command.webhook.sending": "[YELLOW]Dispatching test precache report to Discord webhook...",
+  "command.webhook.success": "[GREEN]Test precache report dispatched successfully! Please check your Discord channel.",
+  "command.webhook.failed": "[RED]Failed to send test precache report to Discord: {0}",
+  "precache.summary": "[GREEN]Precached [GOLD]{0}[GREEN] resources in [GOLD]{1}ms[GREEN].",
+  "precache.discord.success": "[GREEN]Precache log sent to Discord webhook successfully.",
+  "precache.discord.failed": "[RED]Failed to dispatch Discord webhook: {0}"
+}

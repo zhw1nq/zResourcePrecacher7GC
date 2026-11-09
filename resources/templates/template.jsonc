@@ -1,0 +1,86 @@
+{
+  "zResourcePrecacher7GC": {
+    // Enable or disable precache summary logging in the server console
+    "Log": true,
+
+    // Enable verbose logging to log every single resource precached
+    "VerboseLog": false,
+
+    // Enable automatic scanning of the Assets directory for VPK archives
+    "ScanAssetsDirectory": true,
+
+    // Relative path to the folder containing .vpk files
+    "AssetsDirectory": "Assets",
+
+    // SwiftlyS2 permission required to reload configuration and re-scan resources
+    "ReloadPermission": "admin.precache.reload",
+
+    // SwiftlyS2 permission required to inspect precache status
+    "StatusPermission": "admin.precache.status",
+
+    // List of allowed Source 2 resource extensions to precache
+    // Server administrators can add or remove extensions as needed
+    "ResourceExtensions": [
+      "vmdl", "vmdl_c",
+      "vpcf", "vpcf_c",
+      "vmat", "vmat_c",
+      "vcompmat", "vcompmat_c",
+      "vtex", "vtex_c",
+      "vsnd", "vsnd_c",
+      "vdata", "vdata_c",
+      "vpost", "vpost_c",
+      "vsurf", "vsurf_c",
+      "vanmgrph", "vanmgrph_c",
+      "vmix", "vmix_c",
+      "vnmclip", "vnmclip_c",
+      "vrman", "vrman_c",
+      "vrr_c",
+      "vsc",
+      "vsmart", "vsmart_c",
+      "vsnap", "vsnap_c",
+      "vsndevts", "vsndevts_c",
+      "vsndgrps",
+      "vsndstck", "vsndstck_c",
+      "vsvg", "vsvg_c",
+      "vts", "vts_c",
+      "vxml", "vxml_c"
+    ],
+
+    // Discord Webhook notification settings
+    "Discord": {
+      // Set to true to send precache execution logs to Discord
+      "Enabled": false,
+
+      // Your Discord Webhook URL (e.g. https://discord.com/api/webhooks/...)
+      "WebhookUrl": "",
+
+      // Display name of the webhook bot
+      "BotName": "zResourcePrecacher7GC",
+
+      // Optional avatar URL for the webhook bot
+      "AvatarUrl": "",
+
+      // Send a formatted rich embed with map and resource statistics
+      "SendEmbed": true,
+
+      // Attach a .txt log file containing all precached resource lines [PASS] ...
+      "AttachLogFile": true,
+
+      // Hex color for the Discord embed (e.g. #2ECC71 for emerald green)
+      "EmbedColorHex": "#2ECC71",
+
+      // Save a local copy of the precache report .txt file on the server
+      "SaveLocalLogFile": true,
+
+      // Local directory path to store precache report text files
+      "LocalLogDirectory": "logs/precache"
+    },
+
+    // Manual list of resources to precache (relative paths in engine format)
+    // Example: "characters/models/custom/admin_ct.vmdl"
+    "Resources": [],
+
+    // Configuration schema version
+    "Version": 1
+  }
+}

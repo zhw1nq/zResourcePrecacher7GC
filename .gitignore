@@ -1,0 +1,22 @@
+# Build and output artifacts
+bin/
+obj/
+build/
+*.zip
+
+# IDE & Editor folders
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Internal documentation
+AI-READ-DOCS-HERE/
